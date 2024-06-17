@@ -1,0 +1,24 @@
+Namespace(config=None, volume_path='testset/test_vol_h5/', dataset='Synapse', num_classes=8, list_dir='./lists/lists_Synapse/', output_dir='./outputs', img_size=224, input_size=224, seed=2345, is_savenii=True, deterministic=1, ckpt='checkpoints/sam_vit_l_0b3195.pth', lora_ckpt='output/Synapse_224_pretrain_vit_l_epo50_bs8_lr0.0026_s2345/epoch_49.pth', vit_name='vit_l', rank=5, module='sam_lora_image_encoder', stage=3, mode='test')
+12 test iterations per epoch
+idx 0 case case0008 mean_dice 0.666317 mean_hd95 12.136186
+idx 1 case case0022 mean_dice 0.889988 mean_hd95 2.950143
+idx 2 case case0038 mean_dice 0.822089 mean_hd95 9.560265
+idx 3 case case0036 mean_dice 0.851308 mean_hd95 7.608768
+idx 4 case case0032 mean_dice 0.871388 mean_hd95 5.264736
+idx 5 case case0002 mean_dice 0.865893 mean_hd95 7.641339
+idx 6 case case0029 mean_dice 0.807768 mean_hd95 6.968280
+idx 7 case case0003 mean_dice 0.776971 mean_hd95 26.058877
+idx 8 case case0001 mean_dice 0.814714 mean_hd95 15.033040
+idx 9 case case0004 mean_dice 0.800425 mean_hd95 6.195930
+idx 10 case case0025 mean_dice 0.887729 mean_hd95 3.389572
+idx 11 case case0035 mean_dice 0.875341 mean_hd95 3.701751
+Mean class 1 name spleen mean_dice 0.910747 mean_hd95 8.445973
+Mean class 2 name right kidney mean_dice 0.843100 mean_hd95 7.174797
+Mean class 3 name left kidney mean_dice 0.864166 mean_hd95 8.490939
+Mean class 4 name gallbladder mean_dice 0.715485 mean_hd95 12.580444
+Mean class 5 name liver mean_dice 0.946135 mean_hd95 5.544029
+Mean class 6 name stomach mean_dice 0.838637 mean_hd95 11.533377
+Mean class 7 name aorta mean_dice 0.860182 mean_hd95 4.408743
+Mean class 8 name pancreas mean_dice 0.641502 mean_hd95 12.827624
+Testing performance in best val model: mean_dice : 0.827494 mean_hd95 : 8.875741
+Testing Finished!
